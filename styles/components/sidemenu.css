@@ -1,0 +1,24 @@
+.sidemenu_c{
+    display: grid;
+    gap: 0.5em;
+}
+.sidemenu_logo_img{
+    margin: 0.6em;
+}
+.sidemenu_logo{
+    width: max-content;
+    border-radius: 50%;
+}
+.sidemenu_logo:hover{
+    background-color: var(--hover_color);
+}
+.sidemenu_c > ul > li{
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    font-size: 1.5rem;
+    border-radius: 1em;
+}
+.sidemenu_c > ul > li:hover{
+    background-color: var(--hover_color);
+}

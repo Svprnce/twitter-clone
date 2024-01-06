@@ -1,0 +1,23 @@
+.profile_c{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+    border-radius: 0.7em;
+}
+.profile_c:hover{
+    background-color: var(--hover_color);
+}
+.profile_name >p:nth-child(1){
+    font-size: 1rem;
+    font-weight: bold;
+}
+.profile_details{
+    margin-right: 2em;
+}
+.profile_username{
+    color: grey;
+}
+.profile_logo_img{
+    border-radius: 50%;
+}

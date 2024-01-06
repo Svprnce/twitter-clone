@@ -3,7 +3,47 @@
   padding: 0px;
   box-sizing: border-box;
   list-style: none;
+  font-size: 17px;
 }
 :root{
   --content_padding : 1em;
+  --white_color : white;
+  --primary_color : rgb(29, 155, 240);
+  --hover_color : rgba(128, 128, 128, 0.219);
+}
+.nav_icons{
+  font-size: 1.8rem;
+  margin-right: 0.4em;
+}
+button{
+  width: 100%;
+  border-radius: 1em;
+  border: none;
+  padding: 0.8em;
+  color: var(--white_color);
+  background-color: var(--primary_color);
+}
+body{
+  /* height: 100vh; */
+  width: 66%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+aside{
+  width: 20%;
+  padding: 1em;
+  /* width: 50%; */
+  height: 100vh;
+  overflow: hidden;
+  border: 1px solid red;
+}
+main{
+  width: 55%;
+  overflow-y: scroll;
+}
+.left_sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
