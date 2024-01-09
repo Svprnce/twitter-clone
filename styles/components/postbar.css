@@ -1,0 +1,20 @@
+.postbar_c{
+    display: flex;
+    align-items: baseline;
+    padding: 0.5em;
+    border: 1px solid var(--hover_color);
+}
+.postbar_area{
+    width: 100%;
+}
+.postbar_options_c{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--hover_color);
+    padding: 0.3em;
+
+}
+.postbar_btn > button{
+    width: 4rem;
+    padding: 0.1em;
+}

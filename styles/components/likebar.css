@@ -1,0 +1,26 @@
+.likebar_c{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.likebar_like{
+    width: 80%;
+}
+.likebar_like_ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    gap: 0.2em;
+    line-height: 1em;
+}
+.likebar_save{
+    display: flex;
+    gap: 0.3em;
+    align-items: center;
+}
+.like_count_text{
+    color: grey;
+}

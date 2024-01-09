@@ -1,0 +1,25 @@
+.feedbar{
+    padding: 0.5em;
+    display: flex;
+    gap: 1em;
+    border: 1px solid var(--hover_color);
+}
+.feedbar_content{
+    display: grid;
+    gap: 0.5em;
+}
+.feedbar_profile_feed{
+    display: grid;
+    gap: 0.5em;
+}
+.feedbar_profile_details{
+    display: flex;
+    justify-content: space-between;
+}
+.feedbar_profile_detail{
+    display: flex;
+    gap: 0.5em;
+}
+.feedbar_profile_details > h4 > span{
+    color: grey;
+}

@@ -1,6 +1,6 @@
 .sidemenu_c{
     display: grid;
-    gap: 0.5em;
+    gap: 1em;
 }
 .sidemenu_logo_img{
     margin: 0.6em;
@@ -15,9 +15,9 @@
 .sidemenu_c > ul > li{
     display: flex;
     align-items: center;
-    padding: 0.5em;
-    font-size: 1.5rem;
-    border-radius: 1em;
+    padding: 0.3em;
+    font-size: 1.3rem;
+    border-radius: 0.5em;
 }
 .sidemenu_c > ul > li:hover{
     background-color: var(--hover_color);
