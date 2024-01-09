@@ -1,0 +1,25 @@
+.followbar_c{
+    display: grid;
+    gap: 1em;
+    padding: 0.4em;
+    border-radius: 0.5em;
+    background-color: rgba(128, 128, 128, 0.175);
+}
+.follow_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.follow_user_detail{
+    display: flex;
+}
+.follow_btn > button{
+    font-size: o.7rem;
+    width: 4em;
+    padding: 0.2em;
+    background-color: black;
+}
+p{
+    color: grey;
+    font-size: 0.9rem;
+}

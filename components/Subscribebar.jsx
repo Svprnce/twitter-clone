@@ -1,3 +1,4 @@
+import '../styles/components/subscribebar.css'
 const Subscribebar = () => {
     return (
         <div className="subscribebar_c">

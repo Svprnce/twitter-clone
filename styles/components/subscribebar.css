@@ -1,0 +1,13 @@
+.subscribebar_c{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: rgba(128, 128, 128, 0.175);
+}
+.subscribebar_c > button{
+    background-color: black;
+    width: 50%;
+    padding: 0.3em;
+}

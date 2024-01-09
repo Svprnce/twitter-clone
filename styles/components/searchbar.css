@@ -1,0 +1,6 @@
+
+.searchbar_c > input{
+    width: 100%;
+    background-color: var(--hover_color);
+    border-radius: 1em;
+}

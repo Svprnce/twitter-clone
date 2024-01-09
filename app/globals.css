@@ -5,6 +5,14 @@
   list-style: none;
   font-size: 22px;
 }
+a{
+  all:unset;
+  /* text-decoration: none;
+  color: black; */
+}
+li{
+  cursor: pointer;
+}
 :root{
   --content_padding : 1em;
   --white_color : white;
@@ -16,6 +24,7 @@
   margin-right: 0.4em;
 }
 button{
+  cursor: pointer;
   width: 100%;
   border-radius: 1em;
   border: none;
@@ -25,6 +34,7 @@ button{
 }
 
 input{
+  cursor: pointer;
   border: none;
   padding: 0.5em;
 }
@@ -33,7 +43,7 @@ input:focus{
 
 }
 body{
-  width: 66%;
+  width: 70%;
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
@@ -42,29 +52,35 @@ body::-webkit-scrollbar{
   display: none;
 }
 aside{
-  /* width: 20%; */
-  padding: 1em;
-  width: 50%;
+  padding: 0.3em;
+  /* width: 23%; */
   height: 100vh;
-  overflow: hidden;
-  border: 1px solid red;
 }
 main{
-  width : 55;
+  width : 50%;
   height: 100vh;
   /* width: 85%; */
   overflow-y: scroll;
-  border: 1px solid red;
-}
-main::-webkit-scrollbar{
-  display: none;
+  /* border: 1px solid red; */
 }
 .left_sidebar{
+  width: 21%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 }
-
+.right_sidebar{
+  width: 25%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+main::-webkit-scrollbar, .right_sidebar::-webkit-scrollbar{
+  display: none;
+}
+.right_sidebar > *{
+  margin-bottom: 1em;
+}
 /* 
     - simple identifications on css to avoid same styles
 */

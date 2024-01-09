@@ -1,5 +1,6 @@
 'use client'
 import Image from "next/image"
+import Link from 'next/link'
 import '../styles/components/sidemenu.css'
 import { IoMdHome } from "react-icons/io";
 const Sidemenu = () => {
@@ -14,9 +15,9 @@ const Sidemenu = () => {
                 />
             </div>
             <ul >
-                <li><IoMdHome className="nav_icons"/>Home</li>
+                <li><IoMdHome className="nav_icons"/><Link href='/'>Home</Link></li>
                 <li>Explore</li>
-                <li>Notification</li>
+                <li><Link href='/notification'>Notification</Link></li>
                 <li>Home</li>
                 <li>Explore</li>
                 <li>Notification</li>

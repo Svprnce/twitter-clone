@@ -1,0 +1,16 @@
+.trendingbar_c{
+    display: grid;
+    gap: 1em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: rgba(128, 128, 128, 0.117);
+}
+.trending{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trending_content > p{
+    color: grey;
+    font-size: 0.8rem;
+}

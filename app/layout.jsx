@@ -24,12 +24,12 @@ export default function RootLayout({ children }) {
         <main>
           {children}
         </main>
-        {/* <aside className='right_sidebar'>
+        <aside className='right_sidebar'>
           <Searchbar />
           <Subscribebar />
           <Trendingbar />
           <Followbar />
-        </aside> */}
+        </aside>
       </body>
     </html>
   )
