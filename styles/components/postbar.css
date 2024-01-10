@@ -14,6 +14,14 @@
     padding: 0.3em;
 
 }
+.postbar_option{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.postbar_icons{
+    color: var(--primary_color);
+}
 .postbar_btn > button{
     width: 4rem;
     padding: 0.1em;

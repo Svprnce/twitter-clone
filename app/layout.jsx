@@ -10,7 +10,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'Twitter',
-  description: 'A clone by Prince sing Nextjs',
+  description: 'A clone by Prince using Nextjs',
 }
 
 export default function RootLayout({ children }) {

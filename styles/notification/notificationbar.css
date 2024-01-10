@@ -1,0 +1,20 @@
+.notificationbar_c{
+    padding: 0.5em;
+}
+.notification{
+    display: flex;
+    gap: 1em;
+    padding: 0.5em;
+    border-bottom: 1px solid var(--hover_color);
+}
+.notification:hover{
+    background-color: var(--hover_color);
+}
+.profile_name{
+    color: black;
+    font-weight: bold;
+}
+.user_name{
+    font-weight: bold;
+    color: var(--primary_color);
+}

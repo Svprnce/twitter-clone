@@ -1,7 +1,10 @@
+import Notificationbar from "@/components/Notificationbar"
+
 const Page = ()=>{
     return(
         <>
-        <h2>Notification</h2></>
+        <Notificationbar/>
+        </>
     )
 }
 

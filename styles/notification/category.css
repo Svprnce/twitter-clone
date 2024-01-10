@@ -1,0 +1,25 @@
+/* .notification_category{
+    border: 1px solid red;
+} */
+.notification_category > h2{
+    padding: 0.5em;
+}
+.notification_category > ul{
+    margin-top: 0.4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notification_category > ul > li{
+    width: 100%;
+    padding: 0.3em;
+    text-align: center;
+}
+.li_selected{
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    border-bottom: 0.2em solid var(--primary_color);
+}
+.notification_category > ul > li:hover{
+    background-color: var(--hover_color);
+}

@@ -1,21 +1,25 @@
-import Image from 'next/image'
+'use client'
+
 import '../styles/components/postbar.css'
+import Profile from './Profile'
+import { MdAddPhotoAlternate } from "react-icons/md";
+import { MdOutlineGifBox } from "react-icons/md";
+import { MdEmojiEmotions } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 const Postbar = () => {
     return (
         <div className="postbar_c">
             <div className="postbar_profile">
-                <Image
-                    className="profile_logo_img"
-                    src='https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRj16fhcg1gEoqpLO1a4F4nuTGZojXYDrHJ-0uOXssQFqK41mI'
-                    width={37}
-                    height={37}
-                />
+                <Profile width={37} height={37}/>
             </div>
             <div className="postbar_area">
                 <input type="text" placeholder="What is Happening ? !" />
                 <div className="postbar_options_c">
                     <div className="postbar_option">
-                        {/* post emoj options -- component */}
+                        <MdAddPhotoAlternate className='postbar_icons'/>
+                        <MdOutlineGifBox className='postbar_icons'/>
+                        <MdEmojiEmotions className='postbar_icons'/>
+                        <FaLocationDot className='postbar_icons'/>
                     </div>
                     <div className="postbar_btn">
                         <button>Post</button>

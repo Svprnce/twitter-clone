@@ -20,7 +20,7 @@ li{
   --hover_color : rgba(128, 128, 128, 0.219);
 }
 .nav_icons{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-right: 0.4em;
 }
 button{
@@ -88,3 +88,22 @@ main::-webkit-scrollbar, .right_sidebar::-webkit-scrollbar{
 .grey_text{
   color: grey;
 }
+
+/* Loaders  = spinners */
+/* HTML: <div class="loader"></div> */
+.loading_c{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+
+}
+.loader {
+  margin: auto;
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid lightblue;
+  border-right-color: var(--primary_color);
+  animation: l2 1s infinite linear;
+}
+@keyframes l2 {to{transform: rotate(1turn)}}
